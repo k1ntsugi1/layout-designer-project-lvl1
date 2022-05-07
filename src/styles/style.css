@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-Bold.ttf");
+
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans/static/OpenSans/OpenSans-Regular.ttf");
+
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Neucha";
+    src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
+}
+
+:root {
+    --background-main: url("../assets/images/background.png") center/cover no-repeat #b09a81;
+    --color-primary: #fe8a02;
+    --color-primary-dark: #42413c;
+
+    --color-white: #fff;
+    --color-white-translucent: #d7ccc0;
+
+    --color-light: #f5f4f0;
+
+    --color-dark: #2a2626;
+    --color-dark-translucent: #908d8b;
+
+    --color-brown: #b09a81;
+
+    -color-blue-dark: #1085c5;
+}
+
+.color-text-primary {
+    color: var(--color-primary);
+}
+
+.color-text-dark {
+    color: var(--color-dark);
+}
+
+.color-text-brown {
+    color: var(--color-brown);
+}
+
+
+
+.color-background-primary {
+    background-color: var(--color-primary);
+}
+
+.color-background-brown {
+    background-color: var(--color-brown);
+}
+
+.color-background-dark-translucent {
+    background-color: var(--color-dark-translucent);
+}
+
+.h1-f-size {
+    font-size: 72px;
+}
+
+.h2-f-size {
+    font-size: 60px;
+}
+
+.h3-f-size {
+    font-size: 34px;
+}
+
+.h-line-heigth {
+    line-height: 1.2em;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-b-26 {
+    margin-bottom: 26px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+.m-b-40 {
+    margin-bottom: 40px;
+}
+
+.m-t-185 {
+    margin-top: 180px;
+}
+body {
+    margin: 0;
+    width: 1440px;
+
+    font: 16px/1.6em "Open Sans";
+}
+
+
+.structure-section {
+    padding: 100px 0 110px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1110px;
+}
+
+
+.neucha-family {
+    font-family: 'Neucha', cursive;
+}
+
+
+.pos-rel {
+    position: relative;
+}
+
+.background-main::before {
+    content: '';
+    position: absolute;
+    left: -165px;
+    right: -165px;
+    top: 0;
+    bottom: 0;
+    background: var(--background-main);
+    opacity: 10%;
+}
+
+.img-first {
+    position: absolute;
+    top: 55px;
+    right: -270px;
+    height: 525px;
+    z-index: -9;
+}
+
+
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+
+.btn {
+    padding: 12px 24px;
+    width: 148px;
+    height: 49px;
+
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-white);
+}
