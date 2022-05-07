@@ -148,6 +148,18 @@
     margin-right: 30px;
 }
 
+.m-l-50 {
+    margin-left: 50px;
+}
+
+.m-l-122 {
+    margin-left: 122px;
+}
+
+.m-r-50 {
+    margin-right: 50px;
+}
+
 .p-l-10 {
     padding-left: 10px;
 }
@@ -297,3 +309,31 @@ body {
     z-index: 100;
 } 
 
+.input {
+    box-sizing: border-box;
+
+    height: 50px;
+    width: 423px;
+    padding: 15px;
+}
+
+.sr-only {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+  
+    white-space: nowrap;
+}
+
+.form {
+    flex-grow: 1;
+}
+
+.btn-primary {
+    height: 50px;
+    width: 70px;
+}
