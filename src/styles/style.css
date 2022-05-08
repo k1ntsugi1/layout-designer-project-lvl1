@@ -201,8 +201,7 @@ body {
 .background-main::before {
     content: '';
     position: absolute;
-    left: -165px;
-    right: -165px;
+    width: inherit;
     top: 0;
     bottom: 0;
     background: var(--background-main);
