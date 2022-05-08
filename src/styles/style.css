@@ -16,6 +16,8 @@
 @font-face {
     font-family: "Neucha";
     src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
+    font-weight: 400;
+    
 }
 
 :root {
@@ -52,11 +54,11 @@
     color: var(--color-white);
 }
 
-.color-text-whire-translucent {
+.color-text-white-translucent {
     color: var(--color-white-translucent)
 }
 
-.color-text-dard-translicent {
+.color-text-dark-translucent {
     color: var(--color-dark-translucent)
 }
 
@@ -82,21 +84,31 @@
     width: 100%;
 }
 
-.h1-f-size {
+h1 {
     font-size: 72px;
 }
 
-.h2-f-size {
+h2 {
     font-size: 60px;
 }
 
-.h3-f-size {
+h3 {
     font-size: 34px;
 }
 
-.h-line-heigth {
-    line-height: 1.2em;
+h4 {
+    font-size: 14px;
 }
+
+h1,
+h2,
+h3 {
+    font-family: "Neucha";
+    font-weight: 400;
+    line-height: 1.2em;
+    color: var(--color-primary);
+}
+
 
 .m-0 {
     margin: 0;
@@ -140,6 +152,11 @@
 .m-t-100 {
     margin-top: 100px ;
 }
+
+.p-t-100 {
+    padding-top: 100px ;
+}
+
 .m-t-185 {
     margin-top: 183px;
 }
@@ -147,7 +164,7 @@
 .p-t-20 {
     padding-top: 20px;
 }
-.m-r-30px {
+.m-r-30 {
     margin-right: 30px;
 }
 .m-l-30 {
@@ -201,32 +218,18 @@ body {
 .background-main::before {
     content: '';
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    height: 100%;
+    width: 100%;
     background: var(--background-main);
     opacity: 10%;
-    z-index: 100;
-}
-
-.background-main2::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 1440px;
-    height: 914px;
-    background: var(--background-main);
-    opacity: 20%;
     z-index: 100;
 }
 
 .background-brown::before {
     content: '';
     position: absolute;
-    left: -165px;
-    right: -165px;
+    height: 100%;
+    width: 100%;
     top: 0;
     bottom: 0;
     background-color: var(--color-brown);
@@ -237,8 +240,8 @@ body {
 .background-primary::before {
     content: '';
     position: absolute;
-    left: -165px;
-    right: -165px;
+    height: 100%;
+    width: 100%;
     top: 0;
     bottom: 0;
     background-color: var(--color-primary-dark);
@@ -270,7 +273,7 @@ body {
 }
 
 .btn {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
     padding: 12px 24px;
     width: 148px;
@@ -279,6 +282,30 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: var(--color-white);
+
+    background-color: var(--color-primary);
+    z-index: 200;
+}
+.text-decoration-none {
+    text-decoration: none;
+}
+
+a.source-card:hover .card-item{
+    height: max-content;
+    background-color: var(--color-primary);
+}
+
+a.source-card:hover .card-item,
+a.source-card:hover .hover-text {
+    color: var(--color-white);
+}
+
+
+a.source-card:active, 
+a.source-card:hover,  
+a.source-card {
+  text-decoration: none;
+  color: var(--color-dark);
 }
 
 .video {
@@ -290,31 +317,43 @@ body {
 }
 
 .transcription-card {
-    margin: 0;
+    width: 350px;
     font-size: 52px;
+    line-height: 1.2em;
 }
 
 .number-card {
     margin: 0 0 40px 0;
 
-    font-size: 64px;
-    line-height: 1;
+    font: 64px 'Neucha', cursive;
 }
 
 .card-item {
-    flex: 1 1;
+    box-sizing: border-box;
     padding: 24px;
+    width: 350px;
+    height: 100%;
+    flex-grow: 0;
     background-color: var(--color-light);
 }
 
-.flex-container-section {
-    display: flex;
-    flex-direction: row;
+.no-wrap {
     flex-wrap: nowrap;
 }
-
 .no-shrink {
     flex-shrink: 0;
+}
+
+.short-header-name {
+    font-size: 24px;
+    font-family: "Neucha";
+    line-height: 29px;
+}
+
+.short-transcription-card {
+    font-size: 34px;
+    font-family: "Neucha";
+    line-height: 120%;
 }
 
 .vert-align {
