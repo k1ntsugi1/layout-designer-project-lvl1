@@ -218,8 +218,10 @@ body {
 .background-main::before {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
+    left: -165px;
+    right: -165px;
+    top: 0;
+    bottom: 0;
     background: var(--background-main);
     opacity: 10%;
     z-index: 100;
@@ -228,8 +230,8 @@ body {
 .background-brown::before {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
+    left: -165px;
+    right: -165px;
     top: 0;
     bottom: 0;
     background-color: var(--color-brown);
@@ -240,8 +242,8 @@ body {
 .background-primary::before {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
+    left: -165px;
+    right: -165px;
     top: 0;
     bottom: 0;
     background-color: var(--color-primary-dark);
