@@ -316,9 +316,12 @@ a.source {
     top: 329px;
     left: 100px;
     z-index:100;
-    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    
 }
 
+.shadow {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 .transcription-card {
     width: 350px;
     font-family: 'Neucha';
