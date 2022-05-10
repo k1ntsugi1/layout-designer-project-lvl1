@@ -320,10 +320,7 @@ a.source {
 }
 
 .video {
-    position: absolute;
-    top: 329px;
-    left: 100px;
-    z-index: 99;
+    margin-bottom: -200px;
 }
 
 
