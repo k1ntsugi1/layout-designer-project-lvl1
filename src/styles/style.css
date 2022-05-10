@@ -219,6 +219,7 @@ h3 {
 
 .pos-rel {
     position: relative;
+    z-index: 10;
 }
 
 .background-main::before {
