@@ -21,7 +21,7 @@
 }
 
 :root {
-    --background-main: url("../assets/images/background.png") center/cover no-repeat #b09a81;
+    --background-main: url("../assets/images/background.png") no-repeat #b09a81;
     --color-primary: #fe8a02;
     --color-primary-dark: #42413c;
 
@@ -229,6 +229,7 @@ h3 {
     top: 0;
     bottom: 0;
     background: var(--background-main);
+    background-size: cover;
     opacity: 10%;
     z-index: 100;
 }
@@ -287,7 +288,6 @@ h3 {
     width: 148px;
     height: 49px;
 
-    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     color: var(--color-white);
