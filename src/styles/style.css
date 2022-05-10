@@ -66,10 +66,6 @@
   background-color: var(--color-brown);
 }
 
-.color-background-dark-translucent {
-  background-color: var(--color-dark-translucent);
-}
-
 .color-background-primary-dark {
   background-color: var(--color-primary-dark);
   width: 100%;
@@ -81,14 +77,6 @@
 
 .m-t-0 {
   margin-top: 0;
-}
-
-.m-t-38 {
-  margin-top: 38px;
-}
-
-.m-t-27 {
-  margin-top: 27px;
 }
 
 .m-t-30 {
@@ -127,20 +115,12 @@
   margin-bottom: 200px;
 }
 
-.m-b-415 {
-  margin-bottom: 415px;
-}
-
 .m-r-30 {
   margin-right: 30px;
 }
 
 .m-r-55 {
   margin-right: 55px;
-}
-
-.m-r-122 {
-  margin-right: 122px;
 }
 
 .p-t-100 {
@@ -263,14 +243,6 @@ h3 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-}
-
-.no-wrap {
-  flex-wrap: nowrap;
-}
-
-.no-shrink {
-  flex-shrink: 0;
 }
 
 .btn {
