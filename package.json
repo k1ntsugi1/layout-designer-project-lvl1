@@ -2,7 +2,7 @@
   "name": "layout-designer-project-lvl1",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/k1ntsugi1/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/k1ntsugi1/layout-designer-project-lvl1/actions)",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
