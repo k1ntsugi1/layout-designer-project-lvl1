@@ -159,6 +159,10 @@
     width: 50%;
 }
 
+.height {
+    height: 714px;
+}
+
 .f-zise-72 {
     font-size: 72px;
 }
@@ -283,10 +287,10 @@ h3 {
     width: 148px;
     height: 49px;
 
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
     color: var(--color-white);
-
     background-color: var(--color-primary);
     z-index: 200;
 }
