@@ -339,7 +339,7 @@ a.source {
 .number-card {
     margin: 0 0 40px 0;
     height: max-content;
-    font: 64px 'Neucha', cursive;
+    font: 64px/1 'Neucha', cursive;
 }
 
 .card-item {
