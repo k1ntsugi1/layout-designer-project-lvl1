@@ -5,6 +5,6 @@
 
 Это самые распространённые проблемы, с которыми сталкиваются многие разработчики в самые различные периоды своей карьеры.
 
-Как же с ними бороться и какие они бывают вы узнаете по [ссылке](festive-fruit.surge.sh)
+Как же с ними бороться и какие они бывают вы узнаете по [ссылке](https://festive-fruit.surge.sh/)
 
 ![Image alt](https://github.com/hexlet-components/projects-css-l1-cognitive-biases/blob/main/test-images/1440px/header-section.png)
