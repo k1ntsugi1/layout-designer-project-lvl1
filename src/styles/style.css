@@ -231,7 +231,7 @@ h3 {
     background: var(--background-main);
     background-size: cover;
     opacity: 10%;
-    z-index: 100;
+    z-index: -1;
 }
 
 .background-brown::before {
